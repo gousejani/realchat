@@ -1,0 +1,21 @@
+{
+  "name": "real_chat",
+  "version": "1.0.0",
+  "description": "real time chat app with nodejs, sockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Gouse Jani",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0"
+  }
+}
